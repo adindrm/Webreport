@@ -183,7 +183,6 @@ tr:last-child td{border-bottom:none}
       <div class="demo-box-title">Demo Akses:</div>
       <div class="demo-row"><span>Admin</span><span>admin / admin123</span></div>
       <div class="demo-row"><span>Mitra 1</span><span>mitra01 / mitra123</span></div>
-      <div class="demo-row"><span>Mitra 2</span><span>mitra02 / mitra456</span></div>
     </div>
     <div class="form-box">
       <div class="form-error" id="login-error">Username atau password salah.</div>
@@ -665,7 +664,7 @@ function renderMitra(){
 function renderKontrol(){
   if(LOOKER_URL){
     document.getElementById('kontrol-body').innerHTML = `
-      <iframe class="kontrol-embed" src="${LOOKER_URL}" allowfullscreen></iframe>`;
+      <iframe class="kontrol-embed" src="${https://datastudio.google.com/embed/reporting/006b75a2-edbe-42bc-88f8-45dfbc7f435a/page/JjBzF}" allowfullscreen></iframe>`;
   }
   // else keep placeholder
 }
